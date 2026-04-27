@@ -19,10 +19,10 @@ To prepare the data for visualization, we followed these steps:
 We generated three distinct types of plots to analyze the data:
 
 1. **Line Plots:** To track the direct correlation between visit counts and comprehension.
-<img src="static/imgs/Git1.png" alt="Image Line PLot." width="500"/>
+<img src="Git1.png" alt="Image Line Plot." width="500"/>
 
 2. **Point Plots:** To show the average understanding scores and the degree of uncertainty.
-<img src="static/imgs/Git2.png" alt="Image of Point Plot." width="500"/>
+<img src="Git2.png" alt="Image of Point Plot." width="500"/>
 
 3. **Box Plots:** To visualize the full distribution of scores, including the median and quartiles.
-<img src="static/imgs/Git3.png" alt="Image of Box Plot." width="500"/>
+<img src="Git3.png" alt="Image of Box Plot." width="500"/>
