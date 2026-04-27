@@ -3,11 +3,26 @@
 layout: default
 ---
 
-# This is a big header
+# Analysis of Office Hour Impact on Student Understanding
 
-<!-- This is a comment. Below, you'll see code for inserting an image. To make this image appear, update <custom-path>. To add an image, save it inside the imgs folder of this repository. -->
-<img src="<custom-path>/static/imgs/logo.png" alt="Image of Comp110 rainbow logo. "  width="500"/>
 
-## This is a small header
+## Project Overview
+This project examines how **Office Hour (OH) attendance** influences student **understanding**. Using Python and the Seaborn library, we transformed raw survey data into statistical visualizations to identify learning trends.
 
-This is basic paragraph text.
+## Data Processing
+To prepare the data for visualization, we followed these steps:
+* **Loading:** Read raw data from `survey_izzi.csv`.
+* **Transformation:** Converted categories into numerical values to allow for mathematical plotting.
+* **Cleaning:** Used custom utilities to filter the dataset for relevant office hour visits.
+
+## Visualizing the Results
+We generated three distinct types of plots to analyze the data:
+
+1. **Line Plots:** To track the direct correlation between visit counts and comprehension.
+<img src="/JenLo/static/imgs/Git1.png" alt="Image Line PLot." width="500"/>
+
+2. **Point Plots:** To show the average understanding scores and the degree of uncertainty.
+<img src="/JenLo/static/imgs/Git2.png" alt="Image of Point Plot." width="500"/>
+
+3. **Box Plots:** To visualize the full distribution of scores, including the median and quartiles.
+<img src="/JenLo/static/imgs/Git3.png" alt="Image of Box Plot." width="500"/>
